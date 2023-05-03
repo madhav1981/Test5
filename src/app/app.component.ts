@@ -13,7 +13,7 @@ import { CoreService } from './core/core.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'crud-app';
+ 
   displayedColumns: string[] = [
     'id',
     'firstName',
