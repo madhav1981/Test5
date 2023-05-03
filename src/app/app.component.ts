@@ -31,6 +31,7 @@ export class AppComponent implements OnInit {
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
+  title: any;
 
   constructor(
     private _dialog: MatDialog,
